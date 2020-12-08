@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/imranjami.github.io/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/imranjami.github.io/static/js/main.e8a92b8d.chunk.js",
+    "main.js.map": "/imranjami.github.io/static/js/main.e8a92b8d.chunk.js.map",
+    "runtime-main.js": "/imranjami.github.io/static/js/runtime-main.0b7cb13b.js",
+    "runtime-main.js.map": "/imranjami.github.io/static/js/runtime-main.0b7cb13b.js.map",
+    "static/js/2.a321b110.chunk.js": "/imranjami.github.io/static/js/2.a321b110.chunk.js",
+    "static/js/2.a321b110.chunk.js.map": "/imranjami.github.io/static/js/2.a321b110.chunk.js.map",
+    "static/js/3.99043645.chunk.js": "/imranjami.github.io/static/js/3.99043645.chunk.js",
+    "static/js/3.99043645.chunk.js.map": "/imranjami.github.io/static/js/3.99043645.chunk.js.map",
+    "index.html": "/imranjami.github.io/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/imranjami.github.io/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.a321b110.chunk.js.LICENSE.txt": "/imranjami.github.io/static/js/2.a321b110.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/imranjami.github.io/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0b7cb13b.js",
+    "static/js/2.a321b110.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.e8a92b8d.chunk.js"
+  ]
+}
