@@ -1,9 +1,15 @@
+import React, { Component } from 'react';
 import './App.css';
+import Navbar from './Navbar'
 
-function App() {
-  return (
-    <p>hello world aha</p>
-  );
+
+class App extends Component {
+
+  render() {
+    return (
+      <Navbar> </Navbar>
+    );
+  }
 }
 
 export default App;

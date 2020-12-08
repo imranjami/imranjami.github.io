@@ -1,0 +1,9 @@
+body {
+  font-family: 'Abril Fatface', serif;
+  max-width: 1170px;
+  margin: auto;
+}
+
+.site-accent {
+  color: #fb5353;
+}
