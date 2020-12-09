@@ -1,0 +1,46 @@
+body {
+
+}
+
+@font-face { font-family: "Garamond Ultra"; src: url('../data/Garamond Ultra.ttf'); }
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.site-accent {
+  color: #17c671;
+}
+
+::selection {
+    background-color: #17c671;
+    color: white;
+}
+
+.imran_jami {
+  max-width: 500px;
+}
+
+.imran_jami_text {
+  margin: 30px 0px;
+}
+
+.imran_jami_text p {
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+.title {
+  font-family: "Garamond Ultra";
+  font-size: 4em;
+  margin-bottom: 0.25em;
+}
+
+.row {
+  align-items: center;
+}
+
+.container {
+  margin: 0px 0px 150px 0px;
+}
