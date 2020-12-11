@@ -1,28 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.e77eac23.chunk.css",
-    "main.js": "/static/js/main.1f03b145.chunk.js",
-    "main.js.map": "/static/js/main.1f03b145.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.31aba2ff.js",
-    "runtime-main.js.map": "/static/js/runtime-main.31aba2ff.js.map",
+    "main.css": "/static/css/main.1a1f18d4.chunk.css",
+    "main.js": "/static/js/main.2b7556f1.chunk.js",
+    "main.js.map": "/static/js/main.2b7556f1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8d6b0a5a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8d6b0a5a.js.map",
     "static/css/2.90f5f49e.chunk.css": "/static/css/2.90f5f49e.chunk.css",
-    "static/js/2.7ec14361.chunk.js": "/static/js/2.7ec14361.chunk.js",
-    "static/js/2.7ec14361.chunk.js.map": "/static/js/2.7ec14361.chunk.js.map",
-    "static/js/3.ed08432f.chunk.js": "/static/js/3.ed08432f.chunk.js",
-    "static/js/3.ed08432f.chunk.js.map": "/static/js/3.ed08432f.chunk.js.map",
+    "static/js/2.d6f55307.chunk.js": "/static/js/2.d6f55307.chunk.js",
+    "static/js/2.d6f55307.chunk.js.map": "/static/js/2.d6f55307.chunk.js.map",
+    "static/js/3.697d4248.chunk.js": "/static/js/3.697d4248.chunk.js",
+    "static/js/3.697d4248.chunk.js.map": "/static/js/3.697d4248.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.90f5f49e.chunk.css.map": "/static/css/2.90f5f49e.chunk.css.map",
-    "static/css/main.e77eac23.chunk.css.map": "/static/css/main.e77eac23.chunk.css.map",
-    "static/js/2.7ec14361.chunk.js.LICENSE.txt": "/static/js/2.7ec14361.chunk.js.LICENSE.txt",
+    "static/css/main.1a1f18d4.chunk.css.map": "/static/css/main.1a1f18d4.chunk.css.map",
+    "static/js/2.d6f55307.chunk.js.LICENSE.txt": "/static/js/2.d6f55307.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/Garamond Ultra.6041a0b0.ttf",
     "static/media/cheat-sheet.013d85ba.png": "/static/media/cheat-sheet.013d85ba.png",
-    "static/media/jami.04bbf65e.svg": "/static/media/jami.04bbf65e.svg"
+    "static/media/imran_jami_resume.4d387cc1.pdf": "/static/media/imran_jami_resume.4d387cc1.pdf",
+    "static/media/jami.a193a29a.svg": "/static/media/jami.a193a29a.svg",
+    "static/media/phantom.81a92120.svg": "/static/media/phantom.81a92120.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.31aba2ff.js",
+    "static/js/runtime-main.8d6b0a5a.js",
     "static/css/2.90f5f49e.chunk.css",
-    "static/js/2.7ec14361.chunk.js",
-    "static/css/main.e77eac23.chunk.css",
-    "static/js/main.1f03b145.chunk.js"
+    "static/js/2.d6f55307.chunk.js",
+    "static/css/main.1a1f18d4.chunk.css",
+    "static/js/main.2b7556f1.chunk.js"
   ]
 }
