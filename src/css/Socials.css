@@ -53,13 +53,14 @@
     right: 20px;
     z-index: 10;
     color: #333;
+    height: 100px;
 }
 
 .email-nav-link:before {
 	content: "";
     display: block;
     width: 1px;
-    height: 70px;
+    min-height: 70px;
     background-color: #333;
     margin: 0px auto;
 }
@@ -70,7 +71,13 @@
     -webkit-box-align: center;
     align-items: center;
     position: relative;
+    margin-top: -13px;
 }
+
+.email-nav-link .lightbulb:active {
+  transition: translateY(20);
+}
+
 
 .email-nav-link .lightbulb a {
 		color: #333;
@@ -80,14 +87,16 @@
 .email-nav-link .lightbulb a:hover {
 	  color: #17c671;
     text-decoration: none;
+    transform: scale(1.2);
 }
 
 .lightbulb {
   font-size: 32px;
   transform:rotate(-180deg);
   cursor: pointer;
+  margin-top: 0;
 }
 
-.lightbulb:active {
-  scale: 0.8;
+.email-nav-link .lightbulb a:active {
+	transform: translateY(-10px);
 }

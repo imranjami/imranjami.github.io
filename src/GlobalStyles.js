@@ -51,4 +51,8 @@ export const GlobalStyles = createGlobalStyle
     background-color: ${({ theme }) => theme.body};
   }
 
+  .about_me {
+    border: ${({ theme }) => theme.border};
+  }
+
   `

@@ -1,15 +1,17 @@
 import React, { Component, useState, useEffect } from 'react';
 import './css/App.css';
-import Navbar from './Navbar'
-import Socials from './Socials'
+import Navbar from './Navbar';
+import Socials from './Socials';
 import "bootstrap/dist/css/bootstrap.min.css";
 import imran_jami from "./images/jami.svg";
 import imran_phantom from "./images/phantom.svg";
-import { motion } from "framer-motion"
-import Project from './Project'
+import { motion } from "framer-motion";
+import Project from './Project';
 import {ThemeProvider} from "styled-components";
 import { GlobalStyles } from "./GlobalStyles";
-import { lightTheme, darkTheme } from "./Theme"
+import { lightTheme, darkTheme } from "./Theme";
+import about_me from "./images/imran_about_me.jpg";
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 
 function App () {
@@ -30,7 +32,7 @@ function App () {
       <div className="main">
         <Navbar />
         <Socials toggle={themeToggler}/>
-
+        {/* Splash Page with image + text */}
         <div className="splash">
           <div className="content">
             <div className="container">
@@ -62,6 +64,35 @@ function App () {
         </div>
 
         <Project />
+        {/* About me section */}
+        <ScrollableAnchor id={"about_me"}>
+          <div>
+            <h2 className="title centered">About Me<span className="site-accent">.</span></h2>
+            <div className="container">
+              <div className="row">
+                <div className="col">
+                  <p className="right-justified">blah blah blah blah blah blah blah blah blah. blah blah blah blah blah blah blah blah blah.
+                    blah blah blah blah blah blah blah blah blah.blah blah blah blah blah blah blah blah blah.
+                    blah blah blah blah blah blah blah blah blah.blah blah blah blah blah blah blah blah blah.
+                    blah blah blah blah blah blah blah blah blah.blah blah blah blah blah blah blah blah blah.
+                    blah blah blah blah blah blah blah blah blah.blah blah blah blah blah blah blah blah blah.
+                    blah blah blah blah blah blah blah blah blah.blah blah blah blah blah blah blah blah blah.
+                    blah blah blah blah blah blah blah blah blah.
+                  </p>
+                </div>
+                <div className="col">
+                  <img
+                    className="about_me"
+                    src={about_me}
+                  ></img>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ScrollableAnchor>
+        <footer>
+          <p className="footer"> Designed and built by Imran Jami </p>
+        </footer>
       </div>
       </>
     </ThemeProvider>

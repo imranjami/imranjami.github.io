@@ -54,7 +54,7 @@ class Project extends Component {
     return (
       <ScrollableAnchor id={"projects"}>
         <div className="projects">
-          <h2 className="title">Portfolio<span className="site-accent">.</span></h2>
+          <h2 className="title left-justified">Portfolio<span className="site-accent">.</span></h2>
 
           <div className="container">
             <div className="row">

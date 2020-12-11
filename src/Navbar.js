@@ -22,7 +22,7 @@ class Navbar extends Component {
         <div className="navbar">
           <ul>
             <li><motion.a whileHover={{scale:1.05}} href="#projects" className="btn btn-med word">Portfolio</motion.a></li>
-            <li><motion.a whileHover={{scale:1.05}} href="#" className="btn btn-med word">About Me</motion.a></li>
+            <li><motion.a whileHover={{scale:1.05}} href="#about_me" className="btn btn-med word">About Me</motion.a></li>
             <li><motion.a whileHover={{scale:1.05}} href={resume} without rel="noopener noreferrer" target="_blank" className="btn btn-outline-success btn-med">Resume</motion.a></li>
           </ul>
         </div>

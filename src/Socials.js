@@ -27,13 +27,13 @@ class Socials extends Component {
             </a>
           </li>
           <li>
-            <a href="#" target="_blank" aria-label="Email">
+            <a href="mailto:imranajami@gmail.com" target="_blank" aria-label="Email">
               <motion.i
               whileHover={{scale:1.2}} className="fa fa-envelope-o"></motion.i>
             </a>
           </li>
           <li>
-            <a href="#" target="_blank" aria-label="Instagram">
+            <a href="https://www.instagram.com/artbyimran/" target="_blank" aria-label="Instagram">
               <motion.i
               whileHover={{scale:1.2}} className="fa fa-instagram"></motion.i>
             </a>
@@ -42,7 +42,7 @@ class Socials extends Component {
       </div>
       <div orientation="right" className="email-nav-link">
         <div className="lightbulb">
-          <motion.a whileHover={{scale:1.2}} onClick={this.props.toggle} className="fa fa-lightbulb-o top-btn"></motion.a>
+          <motion.a onClick={this.props.toggle} className="fa fa-lightbulb-o top-btn"></motion.a>
         </div>
       </div>
       </motion.div>

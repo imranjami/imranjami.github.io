@@ -56,3 +56,33 @@ body {
 .hide {
   display: none;
 }
+
+.footer {
+  text-align: center;
+  display: block;
+  margin: 50px 0px;
+  color: grey;
+}
+
+.right-justified {
+  text-align: right;
+  width: 267px;
+  float: right;
+  margin-top: 30px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.left-justified {
+  margin-left: 20px;
+}
+
+.about_me {
+  height: 400px;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 15px 15px #17c671;
+  float: left;
+}
