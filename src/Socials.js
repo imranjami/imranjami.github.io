@@ -41,8 +41,8 @@ class Socials extends Component {
         </ul>
       </div>
       <div orientation="right" className="email-nav-link">
-        <div className="email">
-          <motion.a whileHover={{scale:1.2}} href="mailto:imranajami@gmail.com" className="fa fa-hand-o-up top-btn"></motion.a>
+        <div className="lightbulb">
+          <motion.a whileHover={{scale:1.2}} onClick={this.props.toggle} className="fa fa-lightbulb-o top-btn"></motion.a>
         </div>
       </div>
       </motion.div>

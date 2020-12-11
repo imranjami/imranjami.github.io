@@ -2,7 +2,7 @@
 	width: 40px;
 	position: fixed;
 	bottom: 0px;
-	left: 40px;
+	left: 20px;
 	right: auto;
 	z-index: 10;
 	color: #333;
@@ -34,7 +34,7 @@
 .social-nav-links i {
 	font-size: 26px;
 	color: #333;
-  transition: 0.3s;
+  transition: 0.1s;
 }
 
 .social-nav-links i:hover {
@@ -46,16 +46,25 @@
 }
 
 .email-nav-link {
-	width: 100px;
+	width: 40px;
     position: fixed;
-    bottom: 0px;
+    top: 0px;
     left: auto;
-    right: 40px;
+    right: 20px;
     z-index: 10;
     color: #333;
 }
 
-.email-nav-link .email {
+.email-nav-link:before {
+	content: "";
+    display: block;
+    width: 1px;
+    height: 70px;
+    background-color: #333;
+    margin: 0px auto;
+}
+
+.email-nav-link .lightbulb {
 	display: flex;
     flex-direction: column;
     -webkit-box-align: center;
@@ -63,13 +72,22 @@
     position: relative;
 }
 
-.email-nav-link .email a {
-    padding: 0px 6px 10px 0px;
+.email-nav-link .lightbulb a {
 		color: #333;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
-.email-nav-link .email a:hover {
+.email-nav-link .lightbulb a:hover {
 	  color: #17c671;
     text-decoration: none;
+}
+
+.lightbulb {
+  font-size: 32px;
+  transform:rotate(-180deg);
+  cursor: pointer;
+}
+
+.lightbulb:active {
+  scale: 0.8;
 }

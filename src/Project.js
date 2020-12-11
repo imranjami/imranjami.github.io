@@ -86,7 +86,6 @@ class Project extends Component {
               </div>
             </div>
           </div>
-          <div className="high"></div>
         </div>
       </ScrollableAnchor>
     );

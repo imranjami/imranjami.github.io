@@ -5,7 +5,7 @@ body {
 @font-face { font-family: "Garamond Ultra"; src: url('../data/Garamond Ultra.ttf'); }
 
 .main {
-  max-width: 1000px;
+  max-width: 900px;
   margin: auto;
 }
 
@@ -23,7 +23,7 @@ body {
 }
 
 .imran_jami_text {
-  margin: 30px 0px;
+  margin: 20vh 0px;
 }
 
 .imran_jami_text p {
@@ -43,4 +43,16 @@ body {
 
 .container {
   margin: 0px 0px 150px 0px;
+}
+
+.splash {
+  min-height: 100vh;
+}
+
+.splash img {
+  margin: 20vh 0px;
+}
+
+.hide {
+  display: none;
 }

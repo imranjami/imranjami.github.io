@@ -5,7 +5,7 @@
   font-size: 22px;
   float: left;
   margin: 5px;
-  transition: 0.3s;
+  transition: 0.1s;
 }
 
 .header:hover {
@@ -25,7 +25,7 @@ a {
 
 nav {
   padding-top: 30px;
-  margin-bottom: 100px;
+
 }
 
 ul {
@@ -40,15 +40,11 @@ ul {
 }
 
 .navbar li a {
-  /* font-family: 'Open Sans', sans-serif; */
-  /* font-weight: lighter; */
   color: #333;
   text-decoration: none;
+  transition: 0.1s;
 }
 
-/* .navbar li a:hover{
-  color: #17c671;
-} */
 
 .navbar li a.resume {
   border: 1px solid #333;
