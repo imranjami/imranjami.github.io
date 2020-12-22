@@ -56,35 +56,26 @@ class Project extends Component {
         <div className="projects">
           <h2 className="title left-justified">Portfolio<span className="site-accent">.</span></h2>
 
-          <div className="container">
-            <div className="row">
-              <div className="col">
+          <div className="card_container">
+
               <ProjectCard
                 card_data = {card_0_data}/>
-              </div>
-              <div className="col">
+              
               <ProjectCard
                 card_data = {card_1_data}/>
-              </div>
-              <div className="col">
+              
               <ProjectCard
                 card_data = {card_2_data}/>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col">
+              
               <ProjectCard
                 card_data = {card_3_data}/>
-              </div>
-              <div className="col">
+              
               <ProjectCard
                 card_data = {card_4_data}/>
-              </div>
-              <div className="col">
+              
               <ProjectCard
                 card_data = {card_5_data}/>
-              </div>
-            </div>
+              
           </div>
         </div>
       </ScrollableAnchor>

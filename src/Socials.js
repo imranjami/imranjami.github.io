@@ -11,7 +11,8 @@ class Socials extends Component {
       <motion.div
       initial={{opacity:0}}
       animate={{opacity:1}}
-      transition={{delay: 2, duration: 1}}>
+      transition={{delay: 2, duration: 1}}
+      className={this.props.className}>
       <div orientation="left" className="social-nav-links">
         <ul>
           <li>

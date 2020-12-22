@@ -12,6 +12,8 @@ import { GlobalStyles } from "./GlobalStyles";
 import { lightTheme, darkTheme } from "./Theme";
 import about_me from "./images/imran_about_me.jpg";
 import ScrollableAnchor from 'react-scrollable-anchor';
+import Responsive from 'react-responsive-decorator';
+
 
 
 function App () {
@@ -31,36 +33,30 @@ function App () {
     <GlobalStyles/>
       <div className="main">
         <Navbar />
-        <Socials toggle={themeToggler}/>
+        <Socials className="socials" toggle={themeToggler}/>
         {/* Splash Page with image + text */}
         <div className="splash">
-          <div className="content">
             <div className="container">
-              <div className="row">
-                <motion.div className="col"
-                  initial={{x: "-50vw"}}
-                  animate={{x: 0}}
-                  transition={{duration: 1}}>
-                  <img
-                    className="imran_jami"
+                  <motion.img
+                    className="imran_jami socials"
                     src={images[~~imageIndex]}
-                  ></img>
-                </motion.div>
-                <motion.div className="col"
+                    initial={{x: "-50vw"}}
+                    animate={{x: 0}}
+                    transition={{duration: 1}}>
+                  </motion.img>
+
+                  <motion.div
+                  className="imran_jami_text"
                   initial={{x: "50vw"}}
                   animate={{x: 0}}
                   transition={{duration: 1}}>
-                  <div className="imran_jami_text">
                     <p>Hey,</p>
                     <h2 className="title">I’m Imran<span className="site-accent">.</span></h2>
                     <p>
                       {bio}
                     </p>
-                  </div>
-                </motion.div>
-              </div>
+                  </motion.div>
             </div>
-          </div>
         </div>
 
         <Project />
@@ -68,26 +64,22 @@ function App () {
         <ScrollableAnchor id={"about_me"}>
           <div>
             <h2 className="title centered">About Me<span className="site-accent">.</span></h2>
-            <div className="container">
-              <div className="row">
-                <div className="col">
-                  <p className="right-justified">blah blah blah blah blah blah blah blah blah. blah blah blah blah blah blah blah blah blah.
-                    blah blah blah blah blah blah blah blah blah.blah blah blah blah blah blah blah blah blah.
-                    blah blah blah blah blah blah blah blah blah.blah blah blah blah blah blah blah blah blah.
-                    blah blah blah blah blah blah blah blah blah.blah blah blah blah blah blah blah blah blah.
-                    blah blah blah blah blah blah blah blah blah.blah blah blah blah blah blah blah blah blah.
-                    blah blah blah blah blah blah blah blah blah.blah blah blah blah blah blah blah blah blah.
-                    blah blah blah blah blah blah blah blah blah.
-                  </p>
-                </div>
-                <div className="col">
-                  <img
-                    className="about_me"
-                    src={about_me}
-                  ></img>
-                </div>
-              </div>
+
+            <div className="about_container">
+              <p className="right-justified">blah blah blah blah blah blah blah blah blah. blah blah blah blah blah blah blah blah blah.
+                blah blah blah blah blah blah blah blah blah.blah blah blah blah blah blah blah blah blah.
+                blah blah blah blah blah blah blah blah blah.blah blah blah blah blah blah blah blah blah.
+                blah blah blah blah blah blah blah blah blah.blah blah blah blah blah blah blah blah blah.
+                blah blah blah blah blah blah blah blah blah.blah blah blah blah blah blah blah blah blah.
+                blah blah blah blah blah blah blah blah blah.blah blah blah blah blah blah blah blah blah.
+                blah blah blah blah blah blah blah blah blah.
+              </p>
+              <img
+                className="about_me"
+                src={about_me}
+              ></img>
             </div>
+            
           </div>
         </ScrollableAnchor>
         <footer>

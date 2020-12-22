@@ -42,15 +42,19 @@ body {
 }
 
 .container {
-  margin: 0px 0px 150px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+}
+
+.col {
+
 }
 
 .splash {
-  min-height: 100vh;
-}
-
-.splash img {
-  margin: 20vh 0px;
+  height: 100vh;
 }
 
 .hide {
@@ -69,6 +73,7 @@ body {
   width: 267px;
   float: right;
   margin-top: 30px;
+  margin-right: 20px;
 }
 
 .centered {
@@ -84,5 +89,42 @@ body {
   border-radius: 10px;
   border: 1px solid black;
   box-shadow: 15px 15px #17c671;
-  float: left;
+}
+
+.about_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 990px) {
+  .container {
+    margin-top: 20px;
+    
+    justify-content: center;
+  }
+
+  .socials {
+    display: none;
+  }
+
+  .imran_jami_text h2{
+    line-height:0.8em;
+  }
+}
+
+@media (max-width: 660px) {
+  .right-justified {
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .about_container {
+    flex-direction: column-reverse;
+  }
+  .about_me {
+    margin-top: 50px;
+    height: 350px;
+    box-shadow: none;
+  }
 }

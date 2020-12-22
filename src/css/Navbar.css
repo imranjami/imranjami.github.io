@@ -76,3 +76,21 @@ ul {
   clear: both;
   display: table;
 }
+
+.fixed {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 99;
+  width: 900px;
+}
+
+@media (max-width: 900px) {
+  .header {
+    margin-left: 30px;
+  }
+
+  .navbar {
+    display: none;
+  }
+}

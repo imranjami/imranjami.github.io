@@ -55,4 +55,9 @@ export const GlobalStyles = createGlobalStyle
     border: ${({ theme }) => theme.border};
   }
 
+  .fixed {
+    background-color: ${({ theme }) => theme.body};
+    transition: all 0.3s linear;
+  }
+
   `
