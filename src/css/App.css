@@ -5,8 +5,8 @@ body {
 @font-face { font-family: "Garamond Ultra"; src: url('../data/Garamond Ultra.ttf'); }
 
 .main {
-  max-width: 900px;
-  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .site-accent {
@@ -95,6 +95,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.app__container {
+  margin: 0px 20px;
+  width: 990px;
 }
 
 @media (max-width: 990px) {

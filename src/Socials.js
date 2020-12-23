@@ -18,32 +18,32 @@ class Socials extends Component {
           <li>
             <a href="https://github.com/imranjami" target="_blank" aria-label="GitHub">
               <motion.i
-              whileHover={{scale:1.2}} className="fa fa-github"></motion.i>
+              whileHover={{scale:1.2}} className="fab fa-github"></motion.i>
             </a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/imran-jami/" target="_blank" aria-label="LinkedIn">
               <motion.i
-              whileHover={{scale:1.2}} className="fa fa-linkedin"></motion.i>
+              whileHover={{scale:1.2}} className="fab fa-linkedin"></motion.i>
             </a>
           </li>
           <li>
             <a href="mailto:imranajami@gmail.com" target="_blank" aria-label="Email">
               <motion.i
-              whileHover={{scale:1.2}} className="fa fa-envelope-o"></motion.i>
+              whileHover={{scale:1.2}} className="far fa-envelope"></motion.i>
             </a>
           </li>
           <li>
             <a href="https://www.instagram.com/artbyimran/" target="_blank" aria-label="Instagram">
               <motion.i
-              whileHover={{scale:1.2}} className="fa fa-instagram"></motion.i>
+              whileHover={{scale:1.2}} className="fab fa-instagram"></motion.i>
             </a>
           </li>
         </ul>
       </div>
       <div orientation="right" className="email-nav-link">
         <div className="lightbulb">
-          <motion.a onClick={this.props.toggle} className="fa fa-lightbulb-o top-btn"></motion.a>
+          <motion.a onClick={this.props.toggle} className="far fa-lightbulb"></motion.a>
         </div>
       </div>
       </motion.div>
