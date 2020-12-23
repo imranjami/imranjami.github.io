@@ -27,7 +27,7 @@ class Navbar extends Component {
           >
             <a href="#">
               <motion.h1 className="header"
-                whileHover={{scale:1.05}} onClick={this.handleClick} onClick={goToTop}>Imran Jami<span className="site-accent">.</span>
+                whileHover={{scale:1.05}} href="#home">Imran Jami<span className="site-accent">.</span>
               </motion.h1>
             </a>
             
@@ -45,7 +45,7 @@ class Navbar extends Component {
           <> </>
           : 
           <ul className="navbar-mobile">
-            <li><motion.a onClick={this.handleClick} whileHover={{scale:1.05}} href="#" className="btn btn-med word">Home</motion.a></li> 
+            <li><motion.a onClick={this.handleClick} whileHover={{scale:1.05}} href="#home" className="btn btn-med word">Home</motion.a></li> 
             <li><motion.a onClick={this.handleClick} whileHover={{scale:1.05}} href="#projects" className="btn btn-med word">Portfolio</motion.a></li>
             <li><motion.a onClick={this.handleClick} whileHover={{scale:1.05}} href="#about_me" className="btn btn-med word">About Me</motion.a></li>
             <li><motion.a onClick={this.handleClick} whileHover={{scale:1.05}} href={resume} without rel="noopener noreferrer" target="_blank" className="btn btn-outline-success btn-med">Resume</motion.a></li>

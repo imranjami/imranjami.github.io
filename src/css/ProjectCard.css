@@ -22,27 +22,27 @@
 }
 
 .card-0:hover {
-  box-shadow: 15px 15px #17c671;
+  box-shadow: 15px 15px #71deff;
 }
 
 .card-0-title {
-  color: #17c671;
+  color: #71deff;
 }
 
 .card-1:hover {
-  box-shadow: 15px 15px #21a0df;
+  box-shadow: 15px 15px orange;
 }
 
 .card-1-title {
-  color: #21a0df;
+  color: orange;
 }
 
 .card-2:hover {
-  box-shadow: 15px 15px #d12427;
+  box-shadow: 15px 15px #00ff8c;
 }
 
 .card-2-title {
-  color: #d12427;
+  color: #00ff8c;
 }
 
 .card-3:hover {
@@ -74,4 +74,5 @@
     border: 1px solid #333;
     height: 330px;
   }
+  
 }

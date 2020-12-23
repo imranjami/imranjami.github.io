@@ -21,7 +21,8 @@ class ProjectCard extends Component {
     return (
       <motion.Card className={crd + crds[card_data.indx]}
         whileHover={card_data.hover}
-        transition={{duration: 0.01}}>
+        transition={{duration: 0.01}}
+        onClick={() => window.open(card_data.link, "_blank")}>
 
         <CardImg className="round" src={card_data.image} />
         <CardBody>

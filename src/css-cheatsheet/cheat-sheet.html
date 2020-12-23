@@ -1,0 +1,854 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./images/favicon.svg" type="image/svg">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Ubuntu+Mono"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script src="cheat-sheet.js"></script>
+    <title>CSS Cheat Sheet</title>
+  </head>
+  <body>
+    <div class="sidenav animate__animated animate__slideInLeft">
+      <p>./cheat-sheet.css</p>
+      <a href="#background">background</a>
+      <a href="#border">border</a>
+      <a href="#box-model">box model</a>
+      <a href="#font">font</a>
+      <a href="#text">text</a>
+      <a href="#table">table</a>
+      <a href="#list-and-markers">list + markers</a>
+      <a href="#positioning">positioning</a>
+    </div>
+
+    <div class="container">
+      <header class="animate__animated animate__slideInDown">
+        <h1>{cheat-sheet.css}</h1>
+        <h2>/* Less time googling, more time creating */</h2>
+      </header>
+      <div class="section">
+          <h3 class="tag animate__animated animate__fadeIn" id="background">
+            background
+          </h3>
+          <div class="row">
+            <div class="column">
+              <a
+                href="https://www.w3schools.com/css/css_background_image.asp"
+                target="_blank"
+              >
+                <div class="card  ">
+                  <h4>background-image</h4>
+                  <p>
+                    <span class="class">url</span> |
+                    <span class="class">linear-gradient</span> |
+                    <span class="type">none</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div class="column">
+                <a
+                  href="https://www.w3schools.com/csSref/pr_background-attachment.asp"
+                  target="_blank"
+                >
+                  <div class="card  ">
+                    <h4>background-attachment</h4>
+                    <p>
+                      <span class="type">scroll</span> |
+                      <span class="type">fixed</span> |
+                      <span class="type">local</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+
+            <div class="column">
+              <a
+                href="https://www.w3schools.com/cssref/css3_pr_background-size.asp"
+                target="_blank"
+              >
+                <div class="card  ">
+                  <h4>background-size</h4>
+                  <p>
+                    <span class="unit">length</span> |
+                    <span class="type">auto</span> |
+                    <span class="type">cover</span> |
+                    <span class="type">contain</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="column">
+              <a
+                href="https://www.w3schools.com/cssref/pr_background-repeat.asp"
+                target="_blank"
+              >
+                <div class="card  ">
+                  <h4>background-repeat</h4>
+                  <p>
+                    <span class="type">repeat</span> |
+                    <span class="type">repeat-x</span> |
+                    <span class="type">repeat-y</span> |
+                    <span class="type">no-repeat</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div class="column">
+                <a
+                  href="https://www.w3schools.com/cssref/css3_pr_background-clip.asp"
+                  target="_blank"
+                >
+                  <div class="card  ">
+                    <h4>background-clip</h4>
+                    <p>
+                      <span class="type">border-box</span> |
+                      <span class="type">padding-box</span> |
+                      <span class="type">content-box</span> |
+                      <span class="type">no-clip</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+
+            <div class="column">
+                <a
+                  href="https://www.w3schools.com/cssref/pr_background-position.asp"
+                  target="_blank"
+                >
+                  <div class="card  ">
+                    <h4>background-position</h4>
+                    <p>
+                      <span class="type">top left</span> |
+                      <span class="type">top center</span> |
+                      <span class="type">top right</span> |
+                      <span class="type">center left</span> |
+                      <span class="type">center center</span> |
+                      <span class="type">center right</span> |
+                      <span class="type">bottom left</span> |
+                      <span class="type">bottom center</span> |
+                      <span class="type">bottom right</span> | x<span class="unit"
+                        >%</span
+                      >
+                      y<span class="unit">%</span> | x<span class="unit">pos</span>
+                      y<span class="unit">pos</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+          </div>
+
+          <div class="row">
+
+            <div class="column">
+              <a
+                href="https://www.w3schools.com/cssref/pr_background-color.asp"
+                target="_blank"
+              >
+                <div class="card  ">
+                  <h4>background-color</h4>
+                  <p>
+                    <span class="class">color</span> |
+                    <span class="type">transparent</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div class="column">
+              <a
+                href="https://www.w3schools.com/cssref/css3_pr_background-origin.asp"
+                target="_blank"
+              >
+                <div class="card  ">
+                  <h4>background-origin</h4>
+                  <p>
+                    <span class="type">border-box</span> |
+                    <span class="type">padding-box</span> |
+                    <span class="type">content-box</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+      </div>
+      <div class="section">
+        <h3 class="tag animate__animated animate__fadeIn" id="border">
+          border
+        </h3>
+        <div class="row">
+          <div class="column">
+            <a
+              href="https://www.w3schools.com/cssref/pr_border-width.asp"
+              target="_blank"
+            >
+              <div class="card ">
+                <h4>border-width</h4>
+                <p>
+                  <span class="type">thin</span> |
+                  <span class="type">medium</span> |
+                  <span class="type">thick</span> |
+                  <span class="unit">length</span>
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <div class="column">
+              <a
+                href="https://www.w3schools.com/cssref/css3_pr_box-shadow.asp"
+                target="_blank"
+              >
+                <div class="card ">
+                  <h4>box-shadow</h4>
+                  <p>
+                    <span class="type">inset</span> || [<span class="unit"
+                      >length, length, length, length</span
+                    >
+                    || <<span class="class">color</span>> |
+                    <span class="type">none</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+          <div class="column">
+            <a
+              href="https://www.w3schools.com/css/css_border_color.asp"
+              target="_blank"
+            >
+              <div class="card">
+                <h4>border-color</h4>
+                <p>
+                  <span class="class">color</span>
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="row">
+
+
+            <div class="column">
+                <a
+                  href="https://www.w3schools.com/cssref/pr_border-style.asp"
+                  target="_blank"
+                >
+                  <div class="card ">
+                    <h4>border-style</h4>
+                    <p>
+                      <span class="type">none</span> |
+                      <span class="type">hidden</span> |
+                      <span class="type">dotted</span> |
+                      <span class="type">dotted</span> |
+                      <span class="type">dashed</span> |
+                      <span class="type">solid</span> |
+                      <span class="type">double</span> |
+                      <span class="type">groove</span> |
+                      <span class="type">ridge</span> |
+                      <span class="type">inset</span> |
+                      <span class="type">outset</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+          <div class="column">
+            <a
+              href="https://www.w3schools.com/cssref/css3_pr_border-radius.asp"
+              target="_blank"
+            >
+              <div class="card ">
+                <h4>border-radius</h4>
+                <p>
+                  <span class="type">border-radius</span> |
+                  <span class="type">border-top-right-radius</span> |
+                  <span class="type">border-bottom-right-radius</span> |
+                  <span class="type">border-bottom-left-radius</span> |
+                  <span class="type">border-top-left-radius</span>
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <h3 class="tag animate__animated animate__fadeIn" id="box-model">
+          box model
+        </h3>
+        <div class="row">
+            <div class="column">
+              <a
+                href="https://www.w3schools.com/cssref/pr_class_float.asp"
+                target="_blank"
+              >
+                <div class="card ">
+                  <h4>float</h4>
+                  <p>
+                    <span class="type">left</span> |
+                    <span class="type">right</span> |
+                    <span class="type">none</span> |
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="column">
+              <a
+                href="https://www.w3schools.com/cssref/pr_dim_height.asp"
+                target="_blank"
+              >
+                <div class="card ">
+                  <h4>height/width</h4>
+                  <p>
+                    <span class="type">auto</span> |
+                    <span class="unit">length</span> |
+                    n<span class="unit">%</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="column">
+                <a
+                  href="https://www.w3schools.com/css/css_margin.asp"
+                  target="_blank"
+                >
+                  <div class="card ">
+                    <h4>margin</h4>
+                    <p>
+                      <span class="type">auto</span> |
+                      <span class="unit">length</span> |
+                      n<span class="unit">%</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="column">
+                <a
+                  href="https://www.w3schools.com/css/css_padding.asp"
+                  target="_blank"
+                >
+                  <div class="card ">
+                    <h4>padding</h4>
+                    <p>
+                      <span class="unit">length</span> |
+                      n<span class="unit">%</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="column">
+                <a
+                  href="https://www.w3schools.com/cssref/pr_class_display.asp"
+                  target="_blank"
+                >
+                  <div class="card ">
+                    <h4>display</h4>
+                    <p>
+                      <span class="type">none</span> |
+                      <span class="type">inline</span> |
+                      <span class="type">block</span> |
+                      <span class="type">inline-block</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+
+              <div class="column">
+                  <a
+                    href="https://www.w3schools.com/cssref/pr_class_visibility.asp"
+                    target="_blank"
+                  >
+                    <div class="card ">
+                      <h4>visibility</h4>
+                      <p>
+                        <span class="type">visible</span> |
+                        <span class="type">hidden</span> |
+                        <span class="type">collapse</span>
+                      </p>
+                    </div>
+                  </a>
+                </div>
+            </div>
+
+            <div class="row">
+              <div class="column">
+                  <a
+                    href="https://www.w3schools.com/css/css_overflow.asp"
+                    target="_blank"
+                  >
+                    <div class="card ">
+                      <h4>overflow</h4>
+                      <p>
+                        <span class="type">visible</span> |
+                        <span class="type">hidden</span> |
+                        <span class="type">scroll</span> |
+                        <span class="type">auto</span> |
+                        <span class="type">no-display</span> |
+                        <span class="type">no-content</span>
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              <div class="column">
+                <a
+                  href="https://www.w3schools.com/cssref/pr_class_clear.asp"
+                  target="_blank"
+                >
+                  <div class="card ">
+                    <h4>clear</h4>
+                    <p>
+                      <span class="type">left</span> |
+                      <span class="type">right</span> |
+                      <span class="type">both</span> |
+                      <span class="type">none</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+      </div>
+      <div class="section">
+        <h3 class="tag animate__animated animate__fadeIn" id="font">
+              font
+        </h3>
+            <div class="row">
+                <div class="column">
+                  <a
+                    href="https://www.w3schools.com/cssref/pr_font_weight.asp"
+                    target="_blank"
+                  >
+                    <div class="card ">
+                      <h4>font-weight</h4>
+                      <p>
+                        <span class="type">normal</span> |
+                        <span class="type">bold</span> |
+                        <span class="type">bolder</span> |
+                        <span class="type">lighter</span> |
+                        <span class="unit">NNN</span>
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="column">
+                  <a
+                    href="https://www.w3schools.com/cssref/pr_font_font-family.asp"
+                    target="_blank"
+                  >
+                    <div class="card ">
+                      <h4>font-familty</h4>
+                      <p>
+                        <span class="type">serif</span> |
+                        <span class="type">sans-serif</span> |
+                        <span class="type">monospace</span> |
+                        <span class="type">emoji</span>
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="column">
+                  <a
+                    href="https://www.w3schools.com/cssref/pr_font_font-size.asp"
+                    target="_blank"
+                  >
+                    <div class="card ">
+                      <h4>font-size</h4>
+                      <p>
+                        <span class="type">xx-small</span> |
+                        <span class="type">x-small</span> |
+                        <span class="type">small</span> |
+                        <span class="type">medium</span> |
+                        <span class="type">large</span> |
+                        <span class="type">x-large</span> |
+                        <span class="unit">length</span> |
+                        n<span class="unit">%</span>
+                      </p>
+                    </div>
+                  </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                  <a
+                    href="https://www.w3schools.com/cssref/pr_font_font-style.asp"
+                    target="_blank"
+                  >
+                    <div class="card ">
+                      <h4>font-style</h4>
+                      <p>
+                        <span class="type">normal</span> |
+                        <span class="type">italic</span> |
+                        <span class="type">oblique</span> |
+                        <span class="type">inherit</span>
+                      </p>
+                    </div>
+                  </a>
+                </div>
+            </div>
+      </div>
+      <div class="section">
+          <h3 class="tag animate__animated animate__fadeIn" id="text">
+            text
+          </h3>
+          <div class="row">
+            <div class="column">
+              <a
+                href="https://www.w3schools.com/cssref/pr_text_letter-spacing.asp"
+                target="_blank"
+              >
+                <div class="card ">
+                  <h4>letter-spacing</h4>
+                  <p>
+                    <span class="type">normal</span> |
+                    <span class="unit">length</span> |
+                    n<span class="unit">%</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="column">
+              <a
+                href="https://www.w3schools.com/cssref/pr_text_white-space.asp"
+                target="_blank"
+              >
+                <div class="card ">
+                  <h4>white-space</h4>
+                  <p>
+                    <span class="type">normal</span> |
+                    <span class="type">pre</span> |
+                    <span class="type">no-wrap</span> |
+                    <span class="type">pre-wrap</span> |
+                    <span class="type">pre-line</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="column">
+              <a
+                href="https://www.w3schools.com/cssref/pr_text_text-align.ASP"
+                target="_blank"
+              >
+                <div class="card ">
+                  <h4>text-align</h4>
+                  <p>
+                    <span class="type">start</span> |
+                    <span class="type">end</span> |
+                    <span class="type">left</span> |
+                    <span class="type">right</span> |
+                    <span class="type">center</span> |
+                    <span class="type">justify</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="row">
+              <div class="column">
+                <a
+                  href="https://www.w3schools.com/cssref/pr_text_text-decoration.asp"
+                  target="_blank"
+                >
+                  <div class="card ">
+                    <h4>text-decoration</h4>
+                    <p>
+                      <span class="type">none</span> |
+                      <span class="unit">underline</span> |
+                      <span class="unit">overline</span> |
+                      <span class="unit">line-through</span> |
+                      <span class="unit">blink</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="column">
+                <a
+                  href="https://www.w3schools.com/cssref/css3_pr_word-break.asp"
+                  target="_blank"
+                >
+                  <div class="card ">
+                    <h4>word-break</h4>
+                    <p>
+                      <span class="type">normal</span> |
+                      <span class="type">keep-all</span> |
+                      <span class="type">loose</span> |
+                      <span class="type">break-strict</span> |
+                      <span class="type">break-all</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="column">
+                <a
+                  href="https://www.w3schools.com/cssref/pr_text_text-transform.asp"
+                  target="_blank"
+                >
+                  <div class="card ">
+                    <h4>text-transform</h4>
+                    <p>
+                      <span class="type">none</span> |
+                      <span class="type">capitalize</span> |
+                      <span class="type">uppercase</span> |
+                      <span class="type">lowercase</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="column">
+                <a
+                  href="https://www.w3schools.com/cssref/css3_pr_word-wrap.asp"
+                  target="_blank"
+                >
+                  <div class="card ">
+                    <h4>word-wrap</h4>
+                    <p>
+                      <span class="type">normal</span> |
+                      <span class="unit">break-word</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="column">
+                <a
+                  href="https://www.w3schools.com/cssref/css3_pr_text-shadow.asp"
+                  target="_blank"
+                >
+                  <div class="card ">
+                    <h4>text-shadow</h4>
+                    <p>
+                      <span class="type">none</span> |
+                      <span class="class">color</span> |
+                      <span class="unit">length</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+      </div>
+      <div class="section">
+        <h3 class="tag animate__animated animate__fadeIn" id="table">
+          table
+        </h3>
+        <div class="row">
+          <div class="column">
+            <a
+              href="https://www.w3schools.com/cssref/pr_border-collapse.asp"
+              target="_blank"
+            >
+              <div class="card ">
+                <h4>border-collapse</h4>
+                <p>
+                  <span class="type">collapse</span> |
+                  <span class="type">separate</span>
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="column">
+            <a
+              href="https://www.w3schools.com/cssref/pr_tab_empty-cells.asp"
+              target="_blank"
+            >
+              <div class="card ">
+                <h4>empty-cells</h4>
+                <p>
+                  <span class="type">show</span> |
+                  <span class="type">hide</span>
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="column">
+            <a
+              href="https://www.w3schools.com/cssref/pr_border-spacing.asp"
+              target="_blank"
+            >
+              <div class="card ">
+                <h4>border-spacing</h4>
+                <p>
+                  <span class="unit">length length</span>
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+              <a
+                href="https://www.w3schools.com/cssref/pr_tab_table-layout.asp"
+                target="_blank"
+              >
+                <div class="card ">
+                  <h4>table-layout</h4>
+                  <p>
+                    <span class="type">auto</span> |
+                    <span class="type">fixed</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="column">
+              <a
+                href="https://www.w3schools.com/cssref/pr_tab_caption-side.asp"
+                target="_blank"
+              >
+                <div class="card ">
+                  <h4>caption-side</h4>
+                  <p>
+                    <span class="type">top</span> |
+                    <span class="type">bottom</span> |
+                    <span class="type">left</span> |
+                    <span class="type">right</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+      </div>
+      </div>
+      <div class="section">
+          <h3 class="tag animate__animated animate__fadeIn" id="list-and-markers">
+            list + markers
+          </h3>
+          <div class="row">
+            <div class="column">
+              <a
+                href="https://www.w3schools.com/cssref/pr_list-style-type.asp"
+                target="_blank"
+              >
+                <div class="card ">
+                  <h4>list-style-type</h4>
+                  <p>
+                    <span class="type">none</span> |
+                    <span class="type">circle</span> |
+                    <span class="type">square</span> |
+                    <span class="type">upper-roman</span> |
+                    <span class="type">lower-alpha</span> |
+                    <span class="type">georgian</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="column">
+              <a
+                href="https://www.w3schools.com/cssref/pr_list-style-image.asp"
+                target="_blank"
+              >
+                <div class="card ">
+                  <h4>list-style-image</h4>
+                  <p>
+                    <span class="type">none</span> |
+                    <span class="class">url</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="column">
+              <a
+                href="https://www.w3schools.com/cssref/pr_border-spacing.asp"
+                target="_blank"
+              >
+                <div class="card ">
+                  <h4>list-style-position</h4>
+                  <p>
+                    <span class="type">inside</span> |
+                    <span class="type">outside</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+      </div>
+      <div class="section">
+          <h3 class="tag animate__animated animate__fadeIn" id="positioning">
+            positioning
+          </h3>
+          <div class="row">
+            <div class="column">
+              <a
+                href="https://www.w3schools.com/cssref/pr_class_position.asp"
+                target="_blank"
+              >
+                <div class="card ">
+                  <h4>position</h4>
+                  <p>
+                    <span class="type">static</span> |
+                    <span class="type">relative</span> |
+                    <span class="type">absolute</span> |
+                    <span class="type">fixed</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="column">
+              <a
+                href="https://www.w3schools.com/cssref/pr_pos_clip.asp"
+                target="_blank"
+              >
+                <div class="card ">
+                  <h4>clip</h4>
+                  <p>
+                    <span class="type">shape</span> |
+                    <span class="type">auto</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="column">
+              <a
+                href="https://www.w3schools.com/cssref/pr_pos_z-index.asp"
+                target="_blank"
+              >
+                <div class="card ">
+                  <h4>z-index</h4>
+                  <p>
+                    <span class="type">auto</span> |
+                    <span class="unit">number</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <a
+                href="https://www.w3schools.com/cssref/pr_pos_top.asp"
+                target="_blank"
+              >
+                <div class="card ">
+                  <h4>top/right/bottom/left</h4>
+                  <p>
+                    <span class="type">auto</span> |
+                    n<span class="unit">%</span> |
+                    <span class="unit">length</span>
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+      </div>
+      <footer>
+        <h2 class="footer">/* Built by <a href="https://github.com/imranjami" target="_blank">Imran Jami</a> 👨🏽‍💻 */</h2>
+      </footer>
+    </div>
+    <button class="top-button" onclick="topFunction()" id="topBtn">☝🏽</button>
+  </body>
+</html>

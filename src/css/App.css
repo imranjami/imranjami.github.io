@@ -102,6 +102,10 @@ body {
   width: 990px;
 }
 
+.about_me_title {
+  padding-top: 100px;
+}
+
 @media (max-width: 990px) {
   .container {
     margin-top: 20px;

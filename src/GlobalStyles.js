@@ -31,6 +31,12 @@ export const GlobalStyles = createGlobalStyle
     color: ${({ theme }) => theme.text};
   }
 
+  .navbar-mobile li a {
+    color: ${({ theme }) => theme.text};
+  }
+
+
+
   .btn-outline-success:hover {
     color: ${({ theme }) => theme.body};
   }

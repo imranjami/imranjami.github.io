@@ -3,51 +3,35 @@ import './css/Project.css';
 import ScrollableAnchor from 'react-scrollable-anchor'
 import ProjectCard from './ProjectCard'
 import cheatSheet from "./images/cheat-sheet.png";
+import covid19 from "./images/covid-19.png";
+import ether from "./images/ether.jpeg";
 
 class Project extends Component {
 
   render() {
     const card_0_data = {
-                      image: cheatSheet,
-                      title: "Cheat-Sheet.css",
-                      description: "Less time googling, more time creating",
+                      image: covid19,
+                      title: "Covid-19 Dashboard",
+                      description: "Check out live worldwide data for Covid-19.",
                       indx: 0,
-                      hover: {x: -15, y: -15}
+                      hover: {x: -15, y: -15},
+                      link: "https://covid-19-dashboard-a80eb.web.app/"
                     };
     const card_1_data = {
                       image: cheatSheet,
                       title: "Cheat-Sheet.css",
-                      description: "Less time googling, more time creating",
+                      description: "Less time googling, more time creating.",
                       indx: 1,
-                      hover: {x: -15, y: -15}
+                      hover: {x: -15, y: -15},
+                      link: "./css-cheatsheet/cheat-sheet.html"
                     };
     const card_2_data = {
-                      image: cheatSheet,
-                      title: "Cheat-Sheet.css",
-                      description: "Less time googling, more time creating",
+                      image: ether,
+                      title: "Blockchain File Repo",
+                      description: "Securely file storage system built on Ethereum.",
                       indx: 2,
-                      hover: {x: -15, y: -15}
-                    };
-    const card_3_data = {
-                      image: cheatSheet,
-                      title: "Cheat-Sheet.css",
-                      description: "Less time googling, more time creating",
-                      indx: 3,
-                      hover: {x: -5, y: -5}
-                    };
-    const card_4_data = {
-                      image: cheatSheet,
-                      title: "Cheat-Sheet.css",
-                      description: "Less time googling, more time creating",
-                      indx: 4,
-                      hover: {x: -5, y: -5}
-                    };
-    const card_5_data = {
-                      image: cheatSheet,
-                      title: "Cheat-Sheet.css",
-                      description: "Less time googling, more time creating",
-                      indx: 5,
-                      hover: {x: -5, y: -5}
+                      hover: {x: -15, y: -15},
+                      link: "https://github.com/imranjami/bcfilerepo"
                     };
 
 
@@ -66,15 +50,6 @@ class Project extends Component {
               
               <ProjectCard
                 card_data = {card_2_data}/>
-              
-              <ProjectCard
-                card_data = {card_3_data}/>
-              
-              <ProjectCard
-                card_data = {card_4_data}/>
-              
-              <ProjectCard
-                card_data = {card_5_data}/>
               
           </div>
         </div>

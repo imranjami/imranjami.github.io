@@ -12,14 +12,14 @@ import { GlobalStyles } from "./GlobalStyles";
 import { lightTheme, darkTheme } from "./Theme";
 import about_me from "./images/imran_about_me.jpg";
 import ScrollableAnchor from 'react-scrollable-anchor';
-import Responsive from 'react-responsive-decorator';
+
 
 
 
 function App () {
 
-  const [theme, setTheme] = useState('light');
-  const [imageIndex, setImageIndex] = useState(false);
+  const [theme, setTheme] = useState('dark');
+  const [imageIndex, setImageIndex] = useState(true);
   const images = [imran_jami, imran_phantom];
   const themeToggler = () => {
     theme === 'light' ? setTheme('dark') : setTheme('light');
@@ -35,8 +35,10 @@ function App () {
         <Navbar />
         <Socials className="socials" toggle={themeToggler}/>
         {/* Splash Page with image + text */}
+        
         <div className="app__container">
         <div className="splash">
+        <ScrollableAnchor id={"home"}>
           <div className="container">
                 <motion.img
                   className="imran_jami socials"
@@ -58,11 +60,12 @@ function App () {
                   </p>
                 </motion.div>
           </div>
+        </ScrollableAnchor>
           </div>
           <Project />
           {/* About me section */}
           <ScrollableAnchor id={"about_me"}>
-            <div>
+            <div className="about_me_title">
               <h2 className="title centered">About Me<span className="site-accent">.</span></h2>
 
               <div className="about_container">
