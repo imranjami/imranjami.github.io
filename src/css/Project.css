@@ -1,6 +1,11 @@
 .projects {
-  padding-top: 100px;
+  padding-top: 60px;
   padding-bottom: 100px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
 }
 
 .card_container {
@@ -12,5 +17,11 @@
 @media (max-width: 840px) {
   .projects h2 {
     text-align: center;
+  }
+}
+
+@media (max-height: 970px) {
+  .projects {
+    min-height: 970px;
   }
 }

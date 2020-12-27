@@ -1,6 +1,5 @@
 .header {
   font-family: "Garamond Ultra", serif;
-  /* letter-spacing: 0.5px; */
   color: #333;
   font-size: 22px;
   transition: 0.1s;
@@ -9,33 +8,30 @@
 
 .header:hover {
   color: #17c671;
-  text-decoration: none;
 }
 
-i {
-  font-style: normal;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
+*:hover {
   text-decoration: none !important;
 }
 
 .navbar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100vw;
+  left: 0;
+  padding: 15px 50px !important;
+  background-color: #111;
+  z-index: 98;
+}
+
+.navbar__list {
   list-style-type: none;
   padding: 0px !important;
 }
 
-nav {
-  padding: 15px 70px;
-  
-}
-
 ul {
-  margin: 0 !important;
+  margin: 0;
   padding: 0px;
 }
 
@@ -51,7 +47,6 @@ ul {
   transition: 0.1s;
 }
 
-
 .navbar li a.resume {
   border: 1px solid #333;
   padding: 5px;
@@ -62,7 +57,7 @@ ul {
 .navbar li a.resume:hover {
   background-color: #17c671;
   color: white;
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
 }
 
 .btn-outline-success {
@@ -77,59 +72,102 @@ ul {
   border: 0px !important;
 }
 
+.navbar__mobile {
+  z-index: 97;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  background-color: #211f22;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  display: none;
+  top: 0;
+  left: 0;
+}
 
-.navbar__container {
+.navbar__mobile__menuicon {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
+  width: 100vw;
+  position: absolute;
+  right: 0;
+  font-size: 1.4rem;
+  padding: 0 20px;
 }
 
-.fixed {
-  position: fixed;
-  top: 0;
-  background-color: white;
-  z-index: 3;
-  width: 100%;
+.navbar__mobile__menuicon:hover {
+  cursor: pointer;
 }
 
-.menu-icon {
+.navbar__mobile__title {
+  font-family: "Garamond Ultra", serif;
+  font-size: 22px;
+  font-weight: normal;
+  margin: 0;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 0;
+  z-index: 99;
+}
+
+.hidden {
   display: none;
 }
 
-
-.navbar-mobile {
-  z-index: 98;
-  height: 100vh;
-  transition: all 1s ease;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  overflow: hidden; 
+.navbar__socials {
+  display: none !important;
 }
 
-.navbar-mobile li {
-  width: 100%;
-  text-align: center;
-  padding: 30px 0px;
+.navbar__socials a {
+  margin: 0 1rem;
 }
-
-.navbar-mobile li a {
-  font-size: 3rem;
-}
-
-
 
 @media (max-width: 840px) {
+  .navbar__header {
+    display: none;
+  }
   .navbar {
-    display: none !important;
+    display: flex;
+    flex-direction: column-reverse;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+    transition-property: left;
+    transition-duration: 0.5s;
+    height: 100vh;
   }
 
-  .menu-icon {
+  .navbar__socials {
+    color: white;
+    display: inline !important;
+  }
+
+  .navbar__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .navbar li a {
+    padding: 2.5rem 0rem;
+    font-size: 2.5rem;
+  }
+
+  .navbar__mobile {
     display: block;
-    font-size: 1.5rem;
   }
 
-  nav {
-    padding: 15px 30px;
+  .slideout {
+    left: 100vw !important;
+    transition-property: left;
+    transition-duration: 0.5s;
+    background-color: lawngreen;
   }
 }

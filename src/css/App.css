@@ -1,10 +1,12 @@
 body {
-
 }
 
-@font-face { font-family: "Garamond Ultra"; src: url('../data/Garamond Ultra.ttf'); }
+@font-face {
+  font-family: "Garamond Ultra";
+  src: url("../data/Garamond Ultra.ttf");
+}
 
-.main {
+.app {
   display: flex;
   justify-content: center;
 }
@@ -14,8 +16,8 @@ body {
 }
 
 ::selection {
-    background-color: #17c671;
-    color: white;
+  background-color: #17c671;
+  color: white;
 }
 
 .imran_jami {
@@ -49,11 +51,7 @@ body {
   height: 100vh;
 }
 
-.col {
-
-}
-
-.splash {
+.app__splash {
   height: 100vh;
 }
 
@@ -95,6 +93,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  align-content: center;
 }
 
 .app__container {
@@ -103,13 +102,19 @@ body {
 }
 
 .about_me_title {
-  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 @media (max-width: 990px) {
+  .app__container {
+    max-width: 990px;
+  }
+
   .container {
     margin-top: 20px;
-    
     justify-content: center;
   }
 
@@ -117,8 +122,8 @@ body {
     display: none;
   }
 
-  .imran_jami_text h2{
-    line-height:0.8em;
+  .imran_jami_text h2 {
+    line-height: 0.8em;
   }
 }
 
@@ -131,6 +136,11 @@ body {
   .about_container {
     flex-direction: column-reverse;
   }
+
+  .about_me_title {
+    padding-top: 60px;
+  }
+
   .about_me {
     margin-top: 50px;
     height: 350px;

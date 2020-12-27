@@ -1,6 +1,5 @@
-import { createGlobalStyle} from "styled-components"
-export const GlobalStyles = createGlobalStyle
-`
+import { createGlobalStyle } from "styled-components"
+export const GlobalStyles = createGlobalStyle`
   body {
     background: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
@@ -64,6 +63,26 @@ export const GlobalStyles = createGlobalStyle
   .fixed {
     background-color: ${({ theme }) => theme.body};
     transition: all 0.3s linear;
+  }
+
+  .navbar {
+    background-color: ${({ theme }) => theme.body};
+  }
+
+  .navbar__mobile {
+    background-color: ${({ theme }) => theme.body};
+  }
+
+  .navbar__mobile__title {
+    color: ${({ theme }) => theme.text};
+  }
+
+  .navbar__mobile__menuicon {
+    color: ${({ theme }) => theme.text};
+  }
+
+  .navbar__socials {
+    color: ${({ theme }) => theme.text};
   }
 
   `

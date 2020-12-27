@@ -16,53 +16,24 @@
   max-height: 200px;
 }
 
-.card:hover {
-  cursor: pointer;
-  border: 1px solid #333;
-}
-
-.card-0:hover {
-  box-shadow: 15px 15px #71deff;
-}
-
 .card-0-title {
   color: #71deff;
-}
-
-.card-1:hover {
-  box-shadow: 15px 15px orange;
 }
 
 .card-1-title {
   color: orange;
 }
 
-.card-2:hover {
-  box-shadow: 15px 15px #00ff8c;
-}
-
 .card-2-title {
   color: #00ff8c;
 }
 
-.card-3:hover {
-  box-shadow: 15px 15px orange;
-}
-
 .card-3-title {
-  color: orange;
-}
-
-.card-4:hover {
-  box-shadow: 15px 15px pink;
+  color: red;
 }
 
 .card-4-title {
   color: pink;
-}
-
-.card-5:hover {
-  box-shadow: 15px 15px purple;
 }
 
 .card-5-title {
@@ -74,5 +45,36 @@
     border: 1px solid #333;
     height: 330px;
   }
-  
+}
+
+@media (min-width: 991px) {
+  .card:hover {
+    cursor: pointer;
+    border: 1px solid #333;
+    transform: translateX(-15px) translateY(-15px);
+  }
+
+  .card-0:hover {
+    box-shadow: 15px 15px #71deff;
+  }
+
+  .card-1:hover {
+    box-shadow: 15px 15px orange;
+  }
+
+  .card-2:hover {
+    box-shadow: 15px 15px #00ff8c;
+  }
+
+  .card-3:hover {
+    box-shadow: 15px 15px red;
+  }
+
+  .card-4:hover {
+    box-shadow: 15px 15px pink;
+  }
+
+  .card-5:hover {
+    box-shadow: 15px 15px purple;
+  }
 }

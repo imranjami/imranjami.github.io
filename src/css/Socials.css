@@ -1,102 +1,101 @@
 .social-nav-links {
-	width: 40px;
-	position: fixed;
-	bottom: 0px;
-	left: 20px;
-	right: auto;
-	z-index: 10;
-	color: #333;
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  left: 20px;
+  right: auto;
+  z-index: 99;
+  color: #333;
 }
 
 .social-nav-links ul {
-    display: flex;
-    flex-direction: column;
-    -webkit-box-align: center;
-    align-items: center;
-    padding: 0px;
-    margin: 0px;
-    list-style: none;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
 }
 
 .social-nav-links ul:after {
-	content: "";
-    display: block;
-    width: 1px;
-    height: 45px;
-    background-color: #333;
-    margin: 0px auto;
+  content: "";
+  display: block;
+  width: 1px;
+  height: 45px;
+  background-color: #333;
+  margin: 0px auto;
 }
 
 .social-nav-links li {
-	padding: 0.5rem 0;
+  padding: 0.5rem 0;
 }
 
 .social-nav-links i {
-	font-size: 26px;
-	color: #333;
+  font-size: 26px;
+  color: #333;
   transition: 0.1s;
 }
 
 .social-nav-links i:hover {
-	color: #17c671;
+  color: #17c671;
 }
 
 .social-nav-links a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .email-nav-link {
-	width: 40px;
-    position: fixed;
-    top: 0px;
-    left: auto;
-    right: 20px;
-    z-index: 10;
-    color: #333;
-    height: 100px;
+  width: 40px;
+  position: fixed;
+  top: 0px;
+  left: auto;
+  right: 20px;
+  z-index: 99;
+  color: #333;
+  height: 100px;
 }
 
 .email-nav-link:before {
-	content: "";
-    display: block;
-    width: 1px;
-    min-height: 70px;
-    background-color: #333;
-    margin: 0px auto;
+  content: "";
+  display: block;
+  width: 1px;
+  min-height: 110px;
+  background-color: #333;
+  margin: 0px auto;
 }
 
 .email-nav-link .lightbulb {
-	display: flex;
-    flex-direction: column;
-    -webkit-box-align: center;
-    align-items: center;
-    position: relative;
-    margin-top: -13px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  margin-top: -13px;
 }
 
 .email-nav-link .lightbulb:active {
   transition: translateY(20);
 }
 
-
 .email-nav-link .lightbulb a {
-		color: #333;
-    transition: 0.1s;
+  color: #333;
+  transition: 0.1s;
 }
 
 .email-nav-link .lightbulb a:hover {
-	  color: #17c671;
-    text-decoration: none;
-    transform: scale(1.2);
+  color: #17c671;
+  text-decoration: none;
+  transform: scale(1.2);
 }
 
 .lightbulb {
   font-size: 32px;
-  transform:rotate(-180deg);
+  transform: rotate(-180deg);
   cursor: pointer;
   margin-top: 0;
 }
 
 .email-nav-link .lightbulb a:active {
-	transform: translateY(-10px);
+  transform: translateY(-10px);
 }
