@@ -3,9 +3,10 @@ import "./css/Project.css"
 import ScrollableAnchor from "react-scrollable-anchor"
 import ProjectCard from "./ProjectCard"
 import cheatSheet from "./images/cheat-sheet.png"
-import covid19 from "./images/covid-19.png"
+import covid19 from "./images/covid-19.jpeg"
 import ether from "./images/ether.jpeg"
 import jami from "./images/jami-logo.png"
+import linkedin from "./images/linkedin.jpeg"
 
 class Project extends Component {
   render() {
@@ -42,6 +43,24 @@ class Project extends Component {
       link: "https://jamiapparel.com/collections/frontpage"
     }
 
+    const card_4_data = {
+      image: linkedin,
+      title: "Linkedin Newsfeed",
+      description: "Fully functional Linkedin Newsfeed application",
+      indx: 4,
+      hover: { x: -15, y: -15 },
+      link: "https://linkedin-newsfeed.web.app/"
+    }
+
+    const card_5_data = {
+      image: linkedin,
+      title: "Linkedin Newsfeed",
+      description: "Fully functional Linkedin Newsfeed application",
+      indx: 4,
+      hover: { x: -15, y: -15 },
+      link: "https://linkedin-newsfeed.web.app/"
+    }
+
     return (
       <div className="projects" id="projects">
         <h2 className="title left-justified">
@@ -49,13 +68,17 @@ class Project extends Component {
         </h2>
 
         <div className="card_container">
-          <ProjectCard card_data={card_0_data} />
+          <ProjectCard card_data={card_4_data} />
 
           <ProjectCard card_data={card_1_data} />
+
+          <ProjectCard card_data={card_0_data} />
 
           <ProjectCard card_data={card_2_data} />
 
           <ProjectCard card_data={card_3_data} />
+
+          <ProjectCard card_data={card_5_data} />
         </div>
       </div>
     )

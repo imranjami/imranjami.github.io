@@ -12,11 +12,11 @@ body {
 }
 
 .site-accent {
-  color: #17c671;
+  color: #1fb954;
 }
 
 ::selection {
-  background-color: #17c671;
+  background-color: #1fb954;
   color: white;
 }
 
@@ -86,7 +86,7 @@ body {
   height: 400px;
   border-radius: 10px;
   border: 1px solid black;
-  box-shadow: 15px 15px #17c671;
+  box-shadow: 15px 15px #1fb954;
 }
 
 .about_container {

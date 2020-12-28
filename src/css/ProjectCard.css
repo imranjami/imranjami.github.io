@@ -17,23 +17,23 @@
 }
 
 .card-0-title {
-  color: #71deff;
+  color: #1fb954;
 }
 
 .card-1-title {
-  color: orange;
+  color: #ff57b9;
 }
 
 .card-2-title {
-  color: #00ff8c;
+  color: #33e6c8;
 }
 
 .card-3-title {
-  color: red;
+  color: #ffdb43;
 }
 
 .card-4-title {
-  color: pink;
+  color: #ff7b3e;
 }
 
 .card-5-title {
@@ -55,23 +55,23 @@
   }
 
   .card-0:hover {
-    box-shadow: 15px 15px #71deff;
+    box-shadow: 15px 15px #1fb954;
   }
 
   .card-1:hover {
-    box-shadow: 15px 15px orange;
+    box-shadow: 15px 15px #ff57b9;
   }
 
   .card-2:hover {
-    box-shadow: 15px 15px #00ff8c;
+    box-shadow: 15px 15px #33e6c8;
   }
 
   .card-3:hover {
-    box-shadow: 15px 15px red;
+    box-shadow: 15px 15px #ffdb43;
   }
 
   .card-4:hover {
-    box-shadow: 15px 15px pink;
+    box-shadow: 15px 15px #ff7b3e;
   }
 
   .card-5:hover {

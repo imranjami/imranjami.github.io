@@ -7,7 +7,7 @@
 }
 
 .header:hover {
-  color: #17c671;
+  color: #1fb954;
 }
 
 *:hover {
@@ -55,7 +55,7 @@ ul {
 }
 
 .navbar li a.resume:hover {
-  background-color: #17c671;
+  background-color: #1fb954;
   color: white;
   border: 1px solid #fff;
 }
@@ -65,7 +65,7 @@ ul {
 }
 
 .word:hover {
-  color: #17c671 !important;
+  color: #1fb954 !important;
 }
 
 .btn-outline-success:hover {
