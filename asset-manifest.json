@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.33924584.chunk.css",
-    "main.js": "/static/js/main.490405f4.chunk.js",
-    "main.js.map": "/static/js/main.490405f4.chunk.js.map",
+    "main.js": "/static/js/main.a6f19417.chunk.js",
+    "main.js.map": "/static/js/main.a6f19417.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8a278038.js",
     "runtime-main.js.map": "/static/js/runtime-main.8a278038.js.map",
     "static/css/2.90f5f49e.chunk.css": "/static/css/2.90f5f49e.chunk.css",
@@ -22,7 +22,7 @@
     "static/media/imran_jami_resume.4d387cc1.pdf": "/static/media/imran_jami_resume.4d387cc1.pdf",
     "static/media/jami-logo.7c2f701e.png": "/static/media/jami-logo.7c2f701e.png",
     "static/media/jami.a193a29a.svg": "/static/media/jami.a193a29a.svg",
-    "static/media/linkedin.9bd320cd.jpeg": "/static/media/linkedin.9bd320cd.jpeg",
+    "static/media/linkedin.4b9c8b28.jpeg": "/static/media/linkedin.4b9c8b28.jpeg",
     "static/media/phantom.81a92120.svg": "/static/media/phantom.81a92120.svg"
   },
   "entrypoints": [
@@ -30,6 +30,6 @@
     "static/css/2.90f5f49e.chunk.css",
     "static/js/2.bafcab3d.chunk.js",
     "static/css/main.33924584.chunk.css",
-    "static/js/main.490405f4.chunk.js"
+    "static/js/main.a6f19417.chunk.js"
   ]
 }
