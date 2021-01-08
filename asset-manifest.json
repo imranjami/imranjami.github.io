@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.be521ac0.chunk.css",
-    "main.js": "/static/js/main.60c64826.chunk.js",
-    "main.js.map": "/static/js/main.60c64826.chunk.js.map",
+    "main.js": "/static/js/main.6add67e6.chunk.js",
+    "main.js.map": "/static/js/main.6add67e6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8a278038.js",
     "runtime-main.js.map": "/static/js/runtime-main.8a278038.js.map",
     "static/css/2.90f5f49e.chunk.css": "/static/css/2.90f5f49e.chunk.css",
@@ -15,7 +15,7 @@
     "static/css/main.be521ac0.chunk.css.map": "/static/css/main.be521ac0.chunk.css.map",
     "static/js/2.bafcab3d.chunk.js.LICENSE.txt": "/static/js/2.bafcab3d.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/Garamond Ultra.6041a0b0.ttf",
-    "static/media/Imran Resume 2021.d43132b1.pdf": "/static/media/Imran Resume 2021.d43132b1.pdf",
+    "static/media/Imran Resume 2021.a84f0d21.pdf": "/static/media/Imran Resume 2021.a84f0d21.pdf",
     "static/media/cheat-sheet.d48573b8.png": "/static/media/cheat-sheet.d48573b8.png",
     "static/media/ether.f51987ef.jpeg": "/static/media/ether.f51987ef.jpeg",
     "static/media/imran_about_me.d739aeb6.jpg": "/static/media/imran_about_me.d739aeb6.jpg",
@@ -29,6 +29,6 @@
     "static/css/2.90f5f49e.chunk.css",
     "static/js/2.bafcab3d.chunk.js",
     "static/css/main.be521ac0.chunk.css",
-    "static/js/main.60c64826.chunk.js"
+    "static/js/main.6add67e6.chunk.js"
   ]
 }
