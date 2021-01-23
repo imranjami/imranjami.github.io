@@ -48,16 +48,16 @@ function App() {
                 <motion.img
                   className="imran_jami socials"
                   src={images[~~imageIndex]}
-                  initial={{ x: "-50vw" }}
-                  animate={{ x: 0 }}
-                  transition={{ duration: 1 }}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 1.5 }}
                 ></motion.img>
 
                 <motion.div
                   className="imran_jami_text"
-                  initial={{ x: "50vw" }}
-                  animate={{ x: 0 }}
-                  transition={{ duration: 1 }}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 1.5 }}
                 >
                   <p>Hey,</p>
                   <h2 className="title">
@@ -76,18 +76,20 @@ function App() {
               </h2>
 
               <div className="about_container">
-                <p className="right-justified">
-                  blah blah blah blah blah blah blah blah blah. blah blah blah
-                  blah blah blah blah blah blah. blah blah blah blah blah blah
-                  blah blah blah.blah blah blah blah blah blah blah blah blah.
-                  blah blah blah blah blah blah blah blah blah.blah blah blah
-                  blah blah blah blah blah blah. blah blah blah blah blah blah
-                  blah blah blah.blah blah blah blah blah blah blah blah blah.
-                  blah blah blah blah blah blah blah blah blah.blah blah blah
-                  blah blah blah blah blah blah. blah blah blah blah blah blah
-                  blah blah blah.blah blah blah blah blah blah blah blah blah.
-                  blah blah blah blah blah blah blah blah blah.
-                </p>
+                <div className="right-justified">
+                  <p>
+                    If you made it this far, congratulations! I'm a software
+                    developer with a passion for developing beatiful products
+                    that people love! Since graduating from UC Berkeley in 2018,
+                    I have been working as a frontend engineer at Salesforce,
+                    designed my own clothing line, and have been playing way too
+                    much guitar...
+                  </p>
+                  <p>
+                    I'm always open to hearing about exciting new projects, to
+                    work on so feel free to reach out, or just say hello!
+                  </p>
+                </div>
                 <img className="about_me" src={about_me}></img>
               </div>
             </div>

@@ -20,11 +20,13 @@ class ProjectCard extends Component {
     return (
       <motion.Card
         className={crd + crds[card_data.indx]}
-        onClick={() => window.open(card_data.link, "_blank")}
+        onClick={() => {
+          card_data.link ? window.open(card_data.link, "_blank") : ""
+        }}
       >
         <CardImg className="round" src={card_data.image} />
         <CardBody>
-          <CardTitle className={crds[card_data.indx] + "-title"}>
+          <CardTitle className={crds[card_data.indx] + "-title card-title"}>
             {card_data.title}
           </CardTitle>
           <p>{card_data.description}</p>

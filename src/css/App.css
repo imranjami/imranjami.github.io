@@ -21,7 +21,7 @@ body {
 }
 
 .imran_jami {
-  max-width: 500px;
+  width: 30vw;
 }
 
 .imran_jami_text {
@@ -62,7 +62,7 @@ body {
 .footer {
   text-align: center;
   display: block;
-  margin: 50px 0px;
+  margin: 50px 0px !important;
   color: grey;
 }
 
@@ -70,7 +70,7 @@ body {
   text-align: right;
   width: 267px;
   float: right;
-  margin-top: 30px;
+
   margin-right: 20px;
 }
 
@@ -90,10 +90,16 @@ body {
 }
 
 .about_container {
+  font-weight: 400;
+  margin-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
+}
+
+.app__container p {
+  margin-bottom: 10px;
 }
 
 .app__container {
@@ -131,6 +137,7 @@ body {
   .right-justified {
     text-align: center;
     margin-right: 0;
+    margin-top: 30px;
   }
 
   .about_container {
@@ -142,7 +149,6 @@ body {
   }
 
   .about_me {
-    margin-top: 50px;
     height: 350px;
     box-shadow: none;
   }

@@ -146,6 +146,7 @@ ul {
   .navbar__socials {
     color: white;
     display: inline !important;
+    white-space: nowrap;
   }
 
   .navbar__list {
@@ -156,8 +157,12 @@ ul {
   }
 
   .navbar li a {
-    padding: 2.5rem 0rem;
+    padding: 2.5rem;
     font-size: 2.5rem;
+  }
+
+  .navbar .navbar__socials a {
+    padding: 2.5rem 0 0 0;
   }
 
   .navbar__mobile {

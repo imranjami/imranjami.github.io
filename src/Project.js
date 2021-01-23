@@ -3,10 +3,16 @@ import "./css/Project.css"
 import ScrollableAnchor from "react-scrollable-anchor"
 import ProjectCard from "./ProjectCard"
 import cheatSheet from "./images/cheat-sheet.png"
-import covid19 from "./images/covid-19.jpeg"
+
 import ether from "./images/ether.jpeg"
 import jami from "./images/jami-logo.png"
 import linkedin from "./images/linkedin.jpeg"
+
+const covid19 =
+  "https://cdn.dribbble.com/users/1803663/screenshots/6332162/1.jpg?compress=1&resize=800x600"
+
+const spotify =
+  "https://cdn.dribbble.com/users/946315/screenshots/9837567/media/0152ec91010117135443ffb3a9de716e.png?compress=1&resize=1200x900"
 
 class Project extends Component {
   render() {
@@ -53,12 +59,13 @@ class Project extends Component {
     }
 
     const card_5_data = {
-      image: linkedin,
-      title: "Linkedin Newsfeed",
-      description: "Fully functional Linkedin Newsfeed application",
-      indx: 4,
+      image: spotify,
+      title: "Playlist Generator",
+      description:
+        "(Coming Soon) Jam out before your upcoming concerts with Spotify",
+      indx: 5,
       hover: { x: -15, y: -15 },
-      link: "https://linkedin-newsfeed.web.app/"
+      link: ""
     }
 
     return (
@@ -68,11 +75,11 @@ class Project extends Component {
         </h2>
 
         <div className="card_container">
+          <ProjectCard card_data={card_0_data} />
+
           <ProjectCard card_data={card_4_data} />
 
           <ProjectCard card_data={card_1_data} />
-
-          <ProjectCard card_data={card_0_data} />
 
           <ProjectCard card_data={card_2_data} />
 

@@ -7,6 +7,14 @@
   margin: 30px 5px 0px 5px;
 }
 
+.card:hover {
+  cursor: pointer;
+}
+
+.card-5:hover {
+  cursor: default !important;
+}
+
 .card-body {
   border-radius: 10px;
 }
@@ -17,10 +25,10 @@
 }
 
 .card-0-title {
-  color: #1fb954;
+  color: #ff7b3e;
 }
 
-.card-1-title {
+.card-3-title {
   color: #ff57b9;
 }
 
@@ -28,37 +36,36 @@
   color: #33e6c8;
 }
 
-.card-3-title {
-  color: #ffdb43;
+.card-1-title {
+  color: #c622ff;
 }
 
 .card-4-title {
-  color: #ff7b3e;
+  color: #ffdb43;
 }
 
 .card-5-title {
-  color: purple;
+  color: #1fb954;
 }
 
 @media (max-width: 990px) {
   .card {
     border: 1px solid #333;
-    height: 330px;
+    height: 350px;
   }
 }
 
 @media (min-width: 991px) {
   .card:hover {
-    cursor: pointer;
     border: 1px solid #333;
     transform: translateX(-15px) translateY(-15px);
   }
 
   .card-0:hover {
-    box-shadow: 15px 15px #1fb954;
+    box-shadow: 15px 15px #ff7b3e;
   }
 
-  .card-1:hover {
+  .card-3:hover {
     box-shadow: 15px 15px #ff57b9;
   }
 
@@ -66,15 +73,15 @@
     box-shadow: 15px 15px #33e6c8;
   }
 
-  .card-3:hover {
-    box-shadow: 15px 15px #ffdb43;
+  .card-1:hover {
+    box-shadow: 15px 15px #c622ff;
   }
 
   .card-4:hover {
-    box-shadow: 15px 15px #ff7b3e;
+    box-shadow: 15px 15px #ffdb43;
   }
 
   .card-5:hover {
-    box-shadow: 15px 15px purple;
+    box-shadow: 15px 15px #1fb954;
   }
 }

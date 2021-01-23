@@ -3,7 +3,7 @@ import "./css/Navbar.css"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "shards-ui/dist/css/shards.min.css"
 import { motion } from "framer-motion"
-import resume from "./data/imran_jami_resume.pdf"
+import resume from "./data/Imran Resume 2021.pdf"
 import { Link } from "react-scroll"
 
 function Navbar({ theme, toggle }) {
@@ -18,7 +18,8 @@ function Navbar({ theme, toggle }) {
         opacity: 1
       }}
       transition={{
-        duration: 1
+        duration: 1,
+        delay: 1.5
       }}
     >
       <div className="navbar__mobile">
